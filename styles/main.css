@@ -54,7 +54,6 @@ h1 {
 }
 .buttons * {
   z-index: 5;
-  font-weight: bold;
 }
 .btn-speech {
   min-height: 45px;
@@ -193,4 +192,7 @@ h1 {
 .control-group {
   display: flex;
   gap: 2em;
+}
+.control-group label {
+  color: white;
 }
