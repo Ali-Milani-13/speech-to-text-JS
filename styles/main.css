@@ -1,39 +1,65 @@
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto',sans-serif;
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://get.wallhere.com/photo/illustration-minimalism-logo-green-leaf-flower-plant-screenshot-computer-wallpaper-font-174278.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
 }
-h1{
-    font-weight: 500;
-    margin-top: 2em;
+
+h1 {
+  font-weight: 500;
+  margin-top: 2em;
+  color: white;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10em;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5em;
+  margin-top: 5em;
+  width: 60em;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 135, 86, 0.37);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.search-box{
-    background-color: bisque;
-    height: 20em;
-    width: 50em;
-    position: relative;
+
+.word-box {
+  height: 20em;
+  width: 50em;
+  position: relative;
+  margin-bottom: 5em;
 }
-.btn-speech{
-    margin: 1em;
-    padding: .5em;
-    position:absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+
+.btn-speech {
+  margin: 1em;
+  padding: 0.5em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
-.words{
-    height: 15em;
-    padding: 1em;
-    font-weight: bold;
+
+.words {
+  height: 15em;
+  padding: 1em;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.3em;
 }
