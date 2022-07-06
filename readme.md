@@ -6,7 +6,7 @@
 </p>
 
 > This project supports three languages, including: English - Persian and Turkish. speak in one of these three and get the text
-### ✨ [Demo](https://ali-milani-13.github.io/webpack-crypto-website/)
+### ✨ [Demo](https://ali-milani-13.github.io/speech-to-text-JS/)
 
 
 ## Usage
