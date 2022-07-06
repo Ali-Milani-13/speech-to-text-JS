@@ -9,7 +9,7 @@
 body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
-  background-image: url("https://get.wallhere.com/photo/illustration-minimalism-logo-green-leaf-flower-plant-screenshot-computer-wallpaper-font-174278.jpg");
+  background-image: url("/assets/image/background.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -50,17 +50,13 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1em;
 }
 .buttons * {
   z-index: 5;
   font-weight: bold;
 }
 .btn-speech {
-  margin: 1em;
-  padding: 0.5em;
-  bottom: 0;
-  left: 0;
-  right: 0;
   min-height: 45px;
   width: 200px;
   border-radius: 30px;
@@ -193,4 +189,8 @@ h1 {
 }
 .control-radio input:checked + .control_indicator::before {
   animation-name: s-ripple-dup;
+}
+.control-group {
+  display: flex;
+  gap: 2em;
 }

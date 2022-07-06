@@ -1,6 +1,7 @@
 {
   const content = document.getElementById("content");
   const button = document.querySelector(".btn-speech");
+
   const rec = () => {
     recognition.start();
   };
