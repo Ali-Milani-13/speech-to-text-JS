@@ -9,7 +9,7 @@
 body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
-  background-image: url("./assets/image/background.jpg");
+  background-image: url("../assets/image/background.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
